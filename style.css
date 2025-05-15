@@ -1,0 +1,61 @@
+*{
+    color: #82af3d;
+    font-family: Helvetica;
+}
+
+body{
+    margin: 0;
+    font-family: Pricedown;
+    text-align: center;
+    background-image: url(ChatGPT\ Image\ May\ 15\,\ 2025\,\ 03_23_46\ PM.png);
+    padding: 100px;
+}
+
+.main{
+    border: 1px solid black;
+    border-radius: 60px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    padding: 80px;
+    margin: 0;
+}
+
+.text_in_main{
+    font-size: large;
+    color: wheat;
+}
+
+.inp{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 32px;
+    width: 20pc;
+    font-size: larger;
+    color: #48f442;
+}
+
+.link{
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.button{
+    margin: 0;
+    border: 2px solid black;
+    box-shadow: 4px 6px 0px black;
+    border-radius: 15px;
+    padding: 5px;
+    height: 50px;
+    width: 75px;
+    color: black;
+    background-color: #48f442;
+    font-weight: 750;
+    font-size: medium;
+}
+
+button:hover{
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px;
+}
