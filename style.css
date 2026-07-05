@@ -11,38 +11,8 @@ body{
     padding: 100px;
 }
 
-.main{
-    border: 1px solid black;
-    border-radius: 60px;
-    height: 200px;
-    display: inline-block;
-    text-align: center;
-    padding: 80px;
-    margin: 0;
-}
-
-.text_in_main{
-    font-size: large;
-    color: wheat;
-}
-
-.inp{
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: transparent;
-    height: 32px;
-    width: 20pc;
-    font-size: larger;
-    color: #48f442;
-}
-
-.link{
-    color: whitesmoke;
-    font-weight: 500;
-}
-
 .button{
-    margin: 0;
+    margin: auto;
     border: 2px solid black;
     box-shadow: 4px 6px 0px black;
     border-radius: 15px;
@@ -58,4 +28,37 @@ body{
 button:hover{
     transform: translate(2px, 2px);
     box-shadow: 1px 1px;
+}
+
+button:active{
+    transform: translateX(2px);
+    outline-style: double;
+    border: none;
+    background-color: #82af3d;
+}
+
+.login__inputs{
+    border: 2px solid black;
+    min-height: 250px;
+    border-radius: 20px;
+    backdrop-filter: blur(1.7px);
+    -webkit-backdrop-filter: blur(1.7px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#input{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+    background: none;
+    backdrop-filter: blur(30px);
+}
+
+#input:focus{
+    outline: none;
+    box-shadow: none;
 }

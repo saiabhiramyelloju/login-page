@@ -1,45 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A webpage includes login🔑</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="header">
-        <h1>login page</h1>
+      <h1>login page</h1>
     </header>
-    <br>
-<div class="box">
-        <main class="main">
-                    <form action="">
-                        <label for="email" id="email"  class="text_in_main">Email:</label>
-                        <input type="email" class="inp">
-        <br>
-        <br>
-                        <label for="password" class="text_in_main">Password:</label>
-                        <input type="password" class="inp">
-        <br>
-        <br>
-        <input type="radio">
-        <label for="text" class="text_in_main">Remember me</label>
-        <input type="radio">
-        <label for="text" class="text_in_main">Don't Remember me</label>
-        <br>
-        <br>
-                        <a href="" class="link">forgot password?</a>
-<br>
-<br>
-                        <button type="login" class="button">login</button>
-                    </form>
-                </div>
-        </main>
-        <br>
+    <main>
+      <form action="POST">
+        <div class="login__inputs">
+          <p>Email:</p>
+          <input type="email" id="input" required>
+          <p>Password:</p>
+          <input type="password" id="input" required>
+          <a href="" class="link">forgot password?</a>
+          <button type="login" class="button">login</button>
+        </div>
+      </form>
+    </main>
     <footer>
-  <p>&copy; 2025 Nature Studio | Abhiram. All rights reserved.</p>
-  <p><a href="">Privacy Policy</a> | <a href="">Terms of Service</a></p>
-</footer>
-
-</body>
+      <p>&copy; 2025 Nature Studio | Abhiram. All rights reserved &reg;</p>
+      <p><a href="">Privacy Policy</a> | <a href="">Terms of Service</a></p>
+    </footer>
+  </body>
 </html>
