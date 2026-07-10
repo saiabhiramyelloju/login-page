@@ -39,7 +39,7 @@ button:active{
 
 .login__inputs{
     border: 2px solid black;
-    min-height: 250px;
+    min-height: 300px;
     border-radius: 20px;
     backdrop-filter: blur(1.7px);
     -webkit-backdrop-filter: blur(1.7px);
@@ -47,13 +47,17 @@ button:active{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
 }
 
 #input{
     border: 2px solid black;
     border-radius: 5px;
-    height: 20px;
-    width: 200px;
+    margin: 10px;
+    height: 40px;
+    width: 100%;
+    max-width: 250px;
+    box-sizing: border-box;
     background: none;
     backdrop-filter: blur(30px);
 }
@@ -61,4 +65,11 @@ button:active{
 #input:focus{
     outline: none;
     box-shadow: none;
+}
+
+@media(max-width: 500px){
+    #input{
+        max-width: 200px;
+        height: 35px;
+    }
 }
